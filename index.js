@@ -26,5 +26,5 @@ app.use("/api/posts", postRoute);
 app.use("/", reviw);
 
 app.listen(80, () => {
-  console.log("server is running!");
+  console.log("Server is running!");
 });
